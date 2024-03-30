@@ -426,6 +426,8 @@ header {
 .sbtn {
     background-color: #007cc2;
     color: white;
+    border: none;
+    padding: 10px;
 }
 .brh-btn{
     background-color:#007cc2 ;
@@ -925,4 +927,18 @@ input {
 }
 .dr-bld{
     font-weight: 700;
+}
+.pn-bg{
+    background-color:#007cc2;
+    padding: 5px;
+}
+.im-wd{
+    width: 4%;
+}
+.ov-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
 }
