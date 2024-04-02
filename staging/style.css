@@ -91,6 +91,7 @@ header {
 
     .navbar {
         justify-content: center !important;
+        width: 100%;
     }
 
     .img-w {
@@ -126,6 +127,10 @@ header {
 
     .rera {
         width: 95% !important;
+    }
+
+    .rera-no{
+        font-size: 14px;
     }
 
 }
@@ -899,6 +904,10 @@ input {
     .content {
         height: 200px;
     }
+
+    .im-wd{
+        width: 8% !important;
+    }
 }
 .am-ban{
     position: relative;
@@ -941,4 +950,9 @@ input {
     border: none;
     border-radius: 10px;
     padding: 10px;
+}
+@media only screen and (max-width:700px){
+    .nav-gap{
+        padding-top: 25px;
+    }
 }
